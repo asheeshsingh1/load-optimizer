@@ -46,8 +46,8 @@ app/
 ## ▶️ How to Run (Docker)
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/asheeshsingh1/load-optimizer.git
+cd load-optimizer
 
 docker build -t load-optimizer .
 docker run -p 8080:8080 load-optimizer
